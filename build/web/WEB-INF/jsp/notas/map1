@@ -1,0 +1,11 @@
+acceso wellcome
+
+usuario--------pagina_usuario1
+               include menu
+               include header
+               include footer
+
+empleado------pagina empleado
+              include menu (empleado)
+              include header
+              include footer

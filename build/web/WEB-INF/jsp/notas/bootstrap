@@ -1,0 +1,23 @@
+       
+
+ <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    
+                </div>
+            </div>
+        </div>
+
+<ol class="breadcrumb">
+  <li class="active">Inicio</li>
+</ol>
+
+<form role="form">
+  <div class="form-group">
+    <label for="ejemplo_email_1">Email</label>
+    <input type="email" class="form-control" id="ejemplo_email_1"
+           placeholder="Introduce tu email">
+ <input type="button" value="aceptar" onclick="enviar('baja')"/>  
+  </div>
+
+class="btn btn-default"

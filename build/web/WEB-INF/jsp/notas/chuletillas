@@ -1,0 +1,20 @@
+<%@ taglib prefix="c" uri="http://java.sun.com/jstl/core_rt"%>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script src="js/jquery-1.11.0.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.js" type="text/javascript"></script>
+        <!-- STILOS CSS-->
+
+        <link href="css/bootstrap.css" rel="stylesheet" type="text/css"/>
+        <title>wellcome-emp</title>
+
+
+
+session.clear();
+session.remove('nombre variable sesion');
+
+
+HttpSession sesion = hsr.getSession();
+String idClient = sesion.getAttribute("id").toString();
